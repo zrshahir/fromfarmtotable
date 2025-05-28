@@ -16,16 +16,16 @@ h1 {
     font-size: 24px; 
     color: #aa7e38;
 }
-footer {
+/*footer {
     background-color: #c1c439; 
     display: flex; /* added style */
-    justify-content: space-around; /* added style */
-}
+    /*justify-content: space-around; /* added style */
+    /*width: 24px; 
+    height: 33px; 
+}*/
 .about-1, .signup-1, .recipes-1, .contact-1, .privacy-policy-1 {
-    float: left;
-    display: block;
+    display: flex;
     color: #5c4121; 
-    text-align: center;
     padding: 14px 16px; 
     text-decoration: none;
     font-size: 24px;
@@ -33,6 +33,27 @@ footer {
     width: 100%; 
     left: 0; 
     background-color: #c1c439; 
+    float: right; 
+    right: 50px; 
+    justify-content: space-around; 
+}
+.primary-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c1c439; 
+}
+.primary-menu li {
+    float: right; 
+    display: inline; 
+}
+.primary-menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
 </style>
 </head>
@@ -45,15 +66,19 @@ footer {
 <img src="mint-leaves-fresh.jpg" alt="A picture of fresh mint leaves that look wonderful.">
 <img src="Zz04MzkxNTJmYjc2Nzk3OTdiNzA4MjIyODZhNjc1ZGYyOA==.jpg" alt="So many lovely trees with bright and truly gorgeous colors.">
 <img src="monarch-butterfly-sitting-on-a-flower.jpeg" alt="A monarch butterfly sure most likely to sit on a flower.">
-<footer>
-    <div class="about-1"><h1>About</h1></div>
-    <div class="signup-1"><h1>Signup</h1></div>
-    <div class="recipes-1"><h1>Recipes</h1></div>
-    <div class="contact-1"><h1>Contact</h1></div>
-    <div class="privacy-policy-1"><h1>Privacy Policy</h1></div>
-</footer>
+<ul class="primary-menu">
+    <li><a href="homepageforzahira'snaturerelatedfarm.html">About</a></li>
+    <li><a href="#">Signup<a></li>
+    <li><a href="#">Recipes</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+</ul>
 </body>
 </html>
+
+
+
+
 
 
 
