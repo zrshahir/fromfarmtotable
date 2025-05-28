@@ -14,16 +14,14 @@ p {
 }
 h1 {
     font-size: 24px; 
-    color: #c1c439;
+    color: #aa7e38;
 }
-.footer-menu-1 {
-    overflow: hidden;
+footer {
     background-color: #c1c439; 
-    position: fixed; 
-    bottom: 0;
-    width: 100%; 
+    display: flex; /* added style */
+    justify-content: space-around; /* added style */
 }
-.footer-menu-1 a {
+.about-1, .signup-1, .recipes-1, .contact-1, .privacy-policy-1 {
     float: left;
     display: block;
     color: #5c4121; 
@@ -31,6 +29,10 @@ h1 {
     padding: 14px 16px; 
     text-decoration: none;
     font-size: 24px;
+    bottom: 0;
+    width: 100%; 
+    left: 0; 
+    background-color: #c1c439; 
 }
 </style>
 </head>
@@ -40,22 +42,23 @@ h1 {
 <h1>Home Page</h1>
 </header>
 <p>Find out more about our recently launched CSA.</p>
-<img src="mint-leaves-fresh.jpg">
-<img src="Zz04MzkxNTJmYjc2Nzk3OTdiNzA4MjIyODZhNjc1ZGYyOA==.jpg">
-<img src="monarch-butterfly-sitting-on-a-flower.jpeg">
-<div class="footer-menu-1">
-    <a href="about-1">About</a>
-    <a href="signup-1">Signup</a>
-    <a href="recipes-1">Recipes</a>
-    <a href="contact-1">Contact</a>
-    <a href="privacy-policy-1">Privacy Policy</a>
-</div>
-<header>
-<h1>About Page</h1>
-</header>
-<img src="730106-700x465.jpg">
+<img src="mint-leaves-fresh.jpg" alt="A picture of fresh mint leaves that look wonderful.">
+<img src="Zz04MzkxNTJmYjc2Nzk3OTdiNzA4MjIyODZhNjc1ZGYyOA==.jpg" alt="So many lovely trees with bright and truly gorgeous colors.">
+<img src="monarch-butterfly-sitting-on-a-flower.jpeg" alt="A monarch butterfly sure most likely to sit on a flower.">
+<footer>
+    <div class="about-1"><h1>About</h1></div>
+    <div class="signup-1"><h1>Signup</h1></div>
+    <div class="recipes-1"><h1>Recipes</h1></div>
+    <div class="contact-1"><h1>Contact</h1></div>
+    <div class="privacy-policy-1"><h1>Privacy Policy</h1></div>
+</footer>
 </body>
 </html>
+
+
+
+
+
 
 
 
