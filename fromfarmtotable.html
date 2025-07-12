@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>From Farm To Table</title>
+<title>From Farm To Table Home Page</title>
 <meta charset="UTF-8">
 <style>
 body {
-    background-image: url("wood-cube-with-phone-email-and-post-icons-on-white-table-over-blur-bokeh-light-background-copy-space-contact-us-photo.jpg");
+    background-image: url("nature-product-backdrop-farm-sunlight_53876-143219.avif");
     color: #d1e2c4; 
+    background-size: cover;
 }
 p {
-    font-size: 24px; 
-    color: #853d25;
+    font-size: 16px; 
+    color: #ee0022;
 }
 h1 {
     font-size: 24px; 
-    color: #aa7e38;
+    color: #ee0022;
 }
 /*footer {
     background-color: #c1c439; 
@@ -34,7 +35,7 @@ h1 {
     left: 0; 
     background-color: #c1c439; 
     float: right; 
-    right: 50px; 
+    right: 50px;
     justify-content: space-around; 
 }
 .primary-menu {
@@ -42,7 +43,11 @@ h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #c1c439; 
+  background-color: black; 
+  overflow: hidden;
+  position: fixed; /* Positions the navbar relative to the viewport */
+  bottom: 0; /* Anchors the navbar to the bottom of the viewport */
+  width: 100%; /* Makes the navbar span the full width */
 }
 .primary-menu li {
     float: right; 
@@ -50,10 +55,24 @@ h1 {
 }
 .primary-menu li a {
   display: block;
-  color: #1D4F06;
+  color: #F9F6EE;
   text-align: center;
-  padding: 16px;
+  padding: 14px 16px;
   text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+    float: left; 
+    width: 33.33%; 
+    padding: 5px; 
+    margin-top: 255px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>
 </head>
@@ -62,18 +81,45 @@ h1 {
 <h1>Home Page</h1>
 </header>
 <p>Find out more about our recently launched CSA.</p>
-<img src="mint-leaves-fresh.jpg" alt="A picture of fresh mint leaves that look wonderful.">
-<img src="Zz04MzkxNTJmYjc2Nzk3OTdiNzA4MjIyODZhNjc1ZGYyOA==.jpg" alt="So many lovely trees with bright and truly gorgeous colors.">
-<img src="monarch-butterfly-sitting-on-a-flower.jpeg" alt="A monarch butterfly sure most likely to sit on a flower.">
+<div class="row">
+    <div class="column">
+        <img src="AV-Thomas-Local-Article-600x380-1.jpg" alt="Three young man with truly lovely brown russet potatoes." style="width:100%">
+    </div>
+    <div class="column">
+        <img src="shop-local-farmers-markets.jpg" alt="Fruits and vegeatbles at Local Farmers Markets." style="width:100%">
+    </div>
+    <div class="column">
+        <img src="Generic photos for website.avif" alt="Delicious fruits and vegetables." style="width:100%">
+    </div>
+</div>
 <ul class="primary-menu">
     <li><a href="homepageforzahira'snaturerelatedfarm.html">About</a></li>
     <li><a href="signuppageforzahira'snaturerelatedfarm.html">Signup<a></li>
     <li><a href="recipespageforzahira'snaturerelatedfarm.html">Recipes</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="contactpageforzahira'snaturerelatedfarm.html">Contact</a></li>
     <li><a href="#">Privacy Policy</a></li>
 </ul>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
